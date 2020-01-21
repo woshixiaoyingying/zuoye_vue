@@ -1,0 +1,44 @@
+BODY {
+	FONT-FAMILY: arial,sans-serif
+}
+DIV.nav {
+	MARGIN-TOP: 1ex
+}
+DIV.nav A {
+	FONT-SIZE: 10pt; FONT-FAMILY: arial,sans-serif
+}
+SPAN.nav {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: arial,sans-serif
+}
+DIV.nav A {
+	FONT-SIZE: 12pt; COLOR: #0000cc
+}
+SPAN.big {
+	FONT-SIZE: 12pt; COLOR: #0000cc
+}
+DIV.nav A {
+	FONT-SIZE: 10pt; COLOR: black
+}
+A.l:link {
+	COLOR: #6f6f6f
+}
+A.u:link {
+	COLOR: green
+}
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-large;
+}
+.style6 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: large; }
+.style7 {font-size: large}
+.style8 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.style9 {color: #CC0066}
+.style16 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.style17 {font-size: 14px}
+.style18 {color: #FF0000}

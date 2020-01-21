@@ -1,0 +1,119 @@
+.sg_s_about .container {
+    display: block;
+    min-height: 15rem;
+}
+.sg_s_about{background: url(case-top-bg.jpg) no-repeat center center;
+    position: relative;
+    margin-top:-5px;
+    background-size: cover;
+    min-height: 100%;}
+.case-yop {
+    padding: 2rem 0;
+    text-align: center;
+}
+.case-list{display: none;}
+.case-yop em {
+    font-size: 1.5rem;
+    color: #fff;
+    font-style: normal;
+    display: block;
+}
+
+.case-yop p {
+    font-size: 1rem;
+    color: #fff;
+}
+.case-list-all .mcon{padding: 10px 10px;}
+.case-list-all ul li{width:48%;float: left;margin: 1% 1%;}
+.case-list-all ul li img{display: block;transition: all .3s;margin:auto;width: 100%;height: auto;}
+.case-list-all ul li:hover img{ -webkit-transform:scale(.9);transform:scale(.9);}
+.case-list-all .info{text-align: right;padding: 30px 0 0;color: #37cbbe;}
+.case-list-all .info a{color: #37cbbe;font-weight: bold;}
+.class-Other-care{background: url(class-Other-care-bg.jpg) no-repeat right center;background-size: contain}
+.bg-all2{background: url(bg-all2-bg.jpg) no-repeat left center;background-size: contain}
+.bg-all1{background: url(bg-all1-bg.jpg) no-repeat left center;background-size: contain}
+.class-Online-retailers{background: url(class-Online-retailers-bg.jpg) no-repeat left top;background-size: contain}
+
+@media (min-width: 48em) {
+    .sg_s_about{ margin-top: 0px;}
+    .sg_s_about .container {
+        min-height: 800px;
+    }
+
+    .case-yop {
+        padding: 13rem 0;
+        text-align: center;
+    }
+
+    .case-yop em {
+        font-size: 2.5rem;
+        color: #fff;
+        font-style: normal;
+        display: block;
+    }
+
+    .case-yop p {
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    .case-list {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 60px;display: block;;
+    }
+
+    .case-list ul:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    .case-list ul li {
+        width: 14.2%;
+        float: left;
+        padding: 10px 3%;
+        border-left: 1px solid #ddd;text-align: center;
+
+    }
+    .case-list ul li a{ color: #fff;}
+    .case-list ul li:first-child {
+        border: none;
+    }
+    .case-list ul li .pic{width: 37px;height: 37px;float: left;}
+    .case-list ul li:nth-child(1) .inyro{padding-left: 50px;background: url(about-img1.png) no-repeat 0 center;background-size: contain}
+    .case-list ul li:nth-child(2) .inyro{padding-left: 50px;background: url(about-img2.png) no-repeat 0 center;background-size: contain}
+    .case-list ul li:nth-child(3) .inyro{padding-left: 50px;background: url(about-img3.png) no-repeat 0 center;background-size: contain}
+    .case-list ul li:nth-child(4) .inyro{padding-left: 50px;background: url(about-img4.png) no-repeat 0 center;background-size: contain}
+    .case-list ul li:nth-child(5) .inyro{padding-left: 50px;background: url(about-img5.png) no-repeat 0 center;background-size: contain}
+    /* .case-list ul li:nth-child(6) .inyro{padding-left: 50px;background: url(about-img6.png) no-repeat 0 center;background-size: contain} */
+    /* .case-list ul li:nth-child(7) .inyro{padding-left: 50px;background: url(about-img7.png) no-repeat 0 center;background-size: contain} */
+    /* .case-list ul li:nth-child(1):hover .inyro{padding-left: 50px;background: url(about-img1-hover.png) no-repeat 0 center;background-size: contain} */
+    /* .case-list ul li:nth-child(2):hover .inyro{padding-left: 50px;background: url(about-img2-hover.png) no-repeat 0 center;background-size: contain} */
+    /* .case-list ul li:nth-child(3):hover .inyro{padding-left: 50px;background: url(about-img3-hover.png) no-repeat 0 center;background-size: contain} */
+    /* .case-list ul li:nth-child(4):hover .inyro{padding-left: 50px;background: url(about-img4-hover.png) no-repeat 0 center;background-size: contain} */
+    /* .case-list ul li:nth-child(5):hover .inyro{padding-left: 50px;background: url(about-img5-hover.png) no-repeat 0 center;background-size: contain} */
+    /* .case-list ul li:nth-child(6):hover .inyro{padding-left: 50px;background: url(about-img6-hover.png) no-repeat 0 center;background-size: contain} */
+    /* .case-list ul li:nth-child(7):hover .inyro{padding-left: 50px;background: url(about-img7-hover.png) no-repeat 0 center;background-size: contain} */
+
+    .class-Online-retailers{background: url(class-Online-retailers-bg.jpg) no-repeat left top;background-size: contain}
+    .case-list ul li:hover img{-webkit-transform:translateY(-5px);transform:translateY(-5px);}
+    .case-list ul li:hover a{color: #37cbbe}
+    .index_top big{text-transform: unset!important;}
+    .case-list-all .mcon{padding: 10px 0;}
+    .case-list-all ul li{width: 21%;float: left;margin: 0 2%;}
+    .case-list-all ul li img{display: block;width:100%;height: auto;transition: all .3s;margin:auto}
+    .case-list-all ul li:hover img{ -webkit-transform:scale(1.2);transform:scale(1.2);}
+    .case-list-all .info{text-align: right;padding: 30px 0;color: #37cbbe;}
+    .case-list-all .info a{color: #37cbbe;font-weight: bold;}
+    .class-Other-care{background: url(class-Other-care-bg.jpg) no-repeat right center;background-size: inherit}
+    .bg-all2{background: url(bg-all2-bg.jpg) no-repeat left center;background-size: inherit}
+    .bg-all1{background: url(bg-all1-bg.jpg) no-repeat left center;background-size: contain}
+}
+
+
+
+
+
+
